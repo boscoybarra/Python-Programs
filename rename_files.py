@@ -3,6 +3,7 @@ import os
 def rename_files():
     # 1 get file name from a folder
     file_list = os.listdir("/Users/jb/Desktop/prank/")
+    
     # print(file_list)
 
     # 1.1 Check our current working directory
