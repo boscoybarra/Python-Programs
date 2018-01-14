@@ -2,7 +2,7 @@ import os
 
 def rename_files():
     # 1 get file name from a folder
-    file_list = os.listdir("/Users/jb/Desktop/prank/")
+    file_list = os.listdir("/Users/$USER/Desktop/prank/")
 
     # print(file_list)
 
@@ -11,7 +11,7 @@ def rename_files():
     print("Current Working Directory is "+saved_path)
 
     # Change directory folder
-    os.chdir("/Users/jb/Desktop/prank/")
+    os.chdir("/Users/$USER/Desktop/prank/")
 
     # 2 for each file name, rename filename
     for file_name in file_list:
