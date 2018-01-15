@@ -2,6 +2,7 @@ import fresh_tomatoes
 import media
 
 # Note: It is good practice to use your class or call it from another file instead of doing so from media.
+
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life.",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
