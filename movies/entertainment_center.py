@@ -24,4 +24,8 @@ star_wars_viii = media.Movie("Star Wars: The Last Jedi",
 
 movies = [toy_story, avatar, star_wars_viii]
 
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+
+# print(media.Movie.VALID_RATINGS)
+#
+# print(media.Movie.__name__)
