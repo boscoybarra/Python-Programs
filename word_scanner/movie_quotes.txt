@@ -7,3 +7,5 @@ List of movie quotes:
 -- You cant handle the truth. (A Few Good Men)
 
 -- I believe everything and I believe nothing but a shot. (A Shot in the Dark)
+
+--  With Great Power Comes Great Responsibility. (Spider-Man)
