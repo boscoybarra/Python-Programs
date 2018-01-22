@@ -4,9 +4,9 @@ class Movie():
     """ This class provides a way to store movie realted information."""
 
     if __name__ == '__main__':
-	print 'This program is being run by itself'
-else:
-	print 'I am being imported from another module'
+        print('This program is being run by itself')
+    else:
+        print('I am being imported from another module')
 
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 

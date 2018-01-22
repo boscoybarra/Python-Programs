@@ -22,7 +22,14 @@ star_wars_viii = media.Movie("Star Wars: The Last Jedi",
                             "https://www.youtube.com/watch?v=CS0WQ9LuCaw")
 
 
-movies = [toy_story, avatar, star_wars_viii]
+inception = media.Movie("Inception",
+                        "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious.",
+                        "http://t2.gstatic.com/images?q=tbn:ANd9GcRo9vfJCM6dzPkZHIHBVCtlJnAnew9Ai26kEdrli0-tfmatmciD",
+                        "https://www.youtube.com/watch?v=6Vu7IGjSlOc")
+
+
+
+movies = [toy_story, avatar, star_wars_viii, inception]
 
 # fresh_tomatoes.open_movies_page(movies)
 
