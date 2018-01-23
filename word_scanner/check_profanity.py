@@ -1,6 +1,5 @@
 import urllib
 
-
 def read_txt():
     # Contents only detect profanity words in English
     quotes = open("/Users/$USER/Desktop/movie_quotes.txt")
@@ -25,5 +24,5 @@ def check_profanity(text_to_check):
     else:
         print("Could not scan the document properly.")
 
-
+# We call the function to read text in the tt file
 read_txt()
