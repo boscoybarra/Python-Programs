@@ -7,9 +7,13 @@ auth_token  = "ENTER-YOUR-AUTH-TOKEN"
 
 client = Client(account_sid, auth_token)
 
-message = client.messages.create(
-    to="ENTER-PHONE",
+# Send text to multiple Users
+
+users = ["+10000000","+10000000","ENTER MORE NUMBERS HERE"]
+
+for numbers in users:
+    message = client.messages.create(
+    to= numbers,
     from_="ENTER-PHONE-REGISTERED-ON-TWILIO",
     body="Hello, simply type in here the code you want to send out!. Twilio does not allow emojis. Too bad!")
-
-print(message.sid)
+    print(message.sid)
