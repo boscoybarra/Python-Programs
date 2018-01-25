@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 # Send text to multiple Users
 
-users = ["+10000000","+10000000","ENTER MORE NUMBERS HERE"]
+users = ["+10000000","+10000000","ENTER-MORE-NUMBERS-HERE"]
 
 for numbers in users:
     message = client.messages.create(
